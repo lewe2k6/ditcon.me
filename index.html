@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watermeloz</title>
+    <meta name="description" content="Nguyen Ha Son">
+    <meta name="keywords" content="Lewe, lewe2k6, nguyễn hà sơn, hà sơn, hson, hs, watermeloz">
+    <meta name="author" content="Watermeloz">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#050505">
+    <meta property="og:title" content="Watermeloz">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ditcon.me/">
+    <meta property="og:image" content="https://condi.ml/og-image.jpg">
+    <meta property="og:image:alt" content="Watermeloz">
+    <meta property="og:site_name" content="Watermeloz">
+    <meta property="og:description" content="Nguyen Ha Son">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="orb orb-4"></div>
+        <div class="orb orb-5"></div>
+    </div>
+
+    <!-- Particle Canvas -->
+    <canvas id="particles"></canvas>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile-section" id="profileSection">
+            <!-- Status Badge -->
+            <div class="status-badge" id="statusBadge">
+                <span class="discord-status-container">
+                    Discord:
+                    <span id="discord-status-indicator" class="status-indicator loading"></span>
+                    <span id="discord-status-text">Loading</span>
+                </span>
+            </div>
+
+            <!-- Avatar -->
+            <div class="avatar-wrapper" id="avatarWrapper">
+                <div class="avatar-ring"></div>
+                <div class="avatar-ring ring-2"></div>
+                <img src="avatar.png" alt="Watermeloz" class="avatar" id="avatar">
+            </div>
+
+            <!-- Name & Bio -->
+            <h1 class="name" id="userName">
+                <span class="name-text">Nguyễn Hà Sơn</span>
+            </h1>
+            <p class="handle">@watermeloz</p>
+            <p class="bio" id="userBio">Cái địt con mẹ mày</p>
+        </div>
+
+        <!-- Links Section -->
+        <div class="links-section" id="linksSection">
+
+            <a href="https://condi.ml" target="_blank" class="link-card" id="linkWebsite" data-tilt>
+                <div class="link-icon-wrapper email">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="link-content">
+                    <span class="link-title">Website khác | Other website</span>
+                    <span class="link-subtitle">condi.ml</span>
+                </div>
+                <div class="link-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="link-shine"></div>
+            </a>
+
+            <a href="https://discord.gg/GeUzt6NftW" target="_blank" class="link-card" id="linkDogFamily" data-tilt>
+                <div class="link-icon-wrapper discord">
+                    <i class="fab fa-discord"></i>
+                </div>
+                <div class="link-content">
+                    <span class="link-title">The Dog Family</span>
+                    <span class="link-subtitle">Biệt đội trộm chó 🐕</span>
+                </div>
+                <div class="link-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="link-shine"></div>
+            </a>
+        </div>
+
+        <!-- Music Player Widget -->
+        <div class="music-widget" id="musicWidget">
+            <div class="music-visualizer">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="music-info">
+                <span class="music-title">Currently playing</span>
+                <span class="music-track">YOUR MOM</span>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <div class="footer-social">
+                <a href="https://instagram.com/watermel0z" target="_blank" class="footer-icon" aria-label="Instagram"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://t.me/watermel0z" target="_blank" class="footer-icon" aria-label="Telegram"><i
+                        class="fab fa-telegram-plane"></i></a>
+                <a href="https://discord.com/users/394469439606882305" target="_blank" class="footer-icon"
+                    aria-label="Discord"><i class="fab fa-discord"></i></a>
+            </div>
+            <p class="footer-text">Made with <span class="heart">❤️</span> by Watermeloz</p>
+            <p class="footer-year">© 2026 • Watermeloz</p>
+        </footer>
+    </div>
+
+    <!-- Cursor Glow Effect -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

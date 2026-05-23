@@ -1,0 +1,7 @@
+{
+  "name": "Fake Deafen",
+  "description": "Gia lap trang thai Tat tieng (Mute) va Tat tai nghe (Deafen) ao voi nguoi khac khi ban dang o trong phong voice.",
+  "author": "watermeloz",
+  "main": "index.js",
+  "version": "1.0.0"
+}

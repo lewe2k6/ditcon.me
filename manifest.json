@@ -2,6 +2,6 @@
   "name": "Fake Deafen",
   "description": "Giả lập trạng thái Tắt tiếng (Mute) và Tắt tai nghe (Deafen) ảo khi bạn đang ở trong phòng voice.",
   "author": "watermeloz",
-  "main": "https://gist.githubusercontent.com/lewe2k6/86403ec45ef192d3c6b799c270a442b3/raw/e57c212cb1fbe08e8aac620bc25b1f8c05b6cb70/index.js",
+  "main": "index.js",
   "version": "1.0.0"
 }

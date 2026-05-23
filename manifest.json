@@ -1,7 +1,7 @@
 {
   "name": "Fake Deafen",
-  "description": "Gia lap trang thai Tat tieng (Mute) va Tat tai nghe (Deafen) ao voi nguoi khac khi ban dang o trong phong voice.",
+  "description": "Giả lập trạng thái Tắt tiếng (Mute) và Tắt tai nghe (Deafen) ảo khi bạn đang ở trong phòng voice.",
   "author": "watermeloz",
-  "main": "https://ditcon.me/index.js",
+  "main": "index.js",
   "version": "1.0.0"
 }
